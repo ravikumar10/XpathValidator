@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns3="http://www.mavenir.com/mStore/services/shareddatatypes" xmlns:ns1="http://www.mavenir.com/mStore/services/subscriber">
+<SOAP-ENV:Body>
+<SOAP-ENV:Fault>
+	<faultcode>SOAP-ENV:Client</faultcode>
+	<faultstring>Invalid Request</faultstring>
+	<detail><ns3:ServiceErrors><ns3:ServiceError category="SubscriberDetails"><ns3:ValidationError><ns3:Code>134</ns3:Code><ns3:Reason>User Not Found</ns3:Reason></ns3:ValidationError></ns3:ServiceError></ns3:ServiceErrors></detail></SOAP-ENV:Fault></SOAP-ENV:Body></SOAP-ENV:Envelope>
